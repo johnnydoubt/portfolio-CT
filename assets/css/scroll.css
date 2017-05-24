@@ -1,0 +1,15 @@
+
+.back-to-top {
+  z-index: 9999;
+  bottom: 0;
+  right: 0;
+  display: inline-block;
+  padding: 1em;
+  margin: 1em;
+  background: rgba(232, 232, 232, 0.7);
+  border: 2px solid #000;
+}
+
+.back-to-top:hover {
+  cursor: pointer;
+}

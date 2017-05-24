@@ -5,6 +5,10 @@ body {
     color: white;
 }
 
+#languagepage > div > a > img {
+  margin: 60px;
+}
+
 .fadeInBlock {
     opacity: 0;
 }
@@ -42,8 +46,12 @@ text-transform: uppercase;
   border: 2px solid #26466D;
 }
 
+.hire-img-container img {
+  padding: 100px;
+background-color: rgba(255, 255, 255, 0.5);
+}
 #logo-link img {
-    width: 80px;
+  height: 110px;
 }
 
 #top-header {
@@ -53,7 +61,9 @@ text-transform: uppercase;
     background: rgba(255, 255, 255, 0.2);
     display: flex;
     flex-direction: row;
-    height: 130px;
+    height: 120px;
+    max-width: 800px;
+    margin: 0 auto 100px;
     text-shadow: 0 1px 1px #000;
 }
 
@@ -79,9 +89,9 @@ nav {
 .menu {
     display: flex;
     flex-direction: row;
-    width: 1180px;
-    margin: 20px auto;
+    margin: 0 auto;
     justify-content: space-around;
+    width: 100%;
 }
 
 .menu ul {
@@ -91,7 +101,7 @@ nav {
 }
 
 #nav-list li {
-    font-size: 18px;
+    font-size: 22px;
     margin: 6px;
     padding: 6px 3px;
     ;

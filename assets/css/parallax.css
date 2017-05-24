@@ -2,13 +2,15 @@ html {
     height: 100%;
     overflow: hidden;
 }
-
+::-webkit-scrollbar {
+    display: none;
+}
 body {
     margin: 0;
     padding: 0;
     perspective: 1px;
     transform-style: preserve-3d;
-    height: 105%;
+    height: 100%;
     overflow-x: hidden;
 }
 
@@ -20,6 +22,13 @@ p {
     font-size: 140%;
     line-height: 150%;
     color: #333;
+    word-break: break-word;
+}
+
+@media (max-width: 820px) {
+div.passion p {
+  height: 198px;
+}
 }
 
 .slide {
@@ -39,6 +48,14 @@ p {
     bottom: 0;
     left: 0;
     right: 0;
+}
+
+#languagepage > .slide:before {
+  position: static;
+}
+
+#languagepage > .slide:before > a {
+text-decoration: none;
 }
 
 .title {
@@ -77,7 +94,7 @@ p {
 }
 
 #slide1:before {
-    background: #26466D;
+    background: rgba(38, 70, 109, 0.7);
     transform: translateZ(-1px) scale(2);
     z-index: -1;
 }
@@ -87,7 +104,6 @@ p {
     background-attachment: fixed;
 }
 #slide3 {
-
         padding: 12vh 6%;
 }
 #slide3:before {
@@ -97,7 +113,6 @@ p {
 }
 
 #slide4 {
-    padding: 0 10%;
-    min-height: 40vh!important;
+    min-height: 64vh!important;
     background-image: url("../images/background.jpg");
 }
