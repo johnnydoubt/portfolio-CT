@@ -254,3 +254,10 @@ color: white;
 .youtube:hover { color: #da2d2e; }
 .instagram:hover { color: #66269e; }
 .linkedin:hover { color: #1c66c2; }
+
+
+@media (max-width: 1800px) {
+  .hire-img-container img {
+    padding:0;
+  }
+}
