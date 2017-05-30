@@ -37,7 +37,7 @@ text-transform: uppercase;
 }
 
 .hire-img-container span:hover {
-  transform: scale(1.4);
+  transform: scale(1.25);
 }
 
 .hire-img-container span a:hover {
